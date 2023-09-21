@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .scroll-container {
+            width: 500px; /* Set the width of the container */
+            height: 400px; /* Set the height of the container */
+            overflow: hidden; /* Hide the content that overflows */
+        }
+
+        .scroll-content {
+            transition: transform 0.3s ease-in-out; /* Add smooth transition effect */
+        }
+
+        .scroll-container:hover .scroll-content {
+            transform: translateY(-70%); /* Move the content upward on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="scroll-container">
+        <div class="scroll-content">
+            <!-- Place your content here -->
+            <img src="/assets/projects/Food UI.png" alt="Your Image" width="300" height="800">
+        </div>
+    </div>
+</body>
+</html>
