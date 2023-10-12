@@ -162,7 +162,7 @@ a{
     color: black;
 }
 
-.btn-red a :hover{
+.btn-red :hover{
     border: none;
     color: black;
 }
@@ -613,6 +613,7 @@ text-align: center;
 
 #submit-btn:hover{
     scale: 0.9;
+    color: #1f1f1f;
 }
 
 footer{
