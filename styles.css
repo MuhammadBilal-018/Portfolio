@@ -136,6 +136,7 @@ a{
     border: solid 3px transparent;
     position: relative;
     z-index: 1;
+    text-decoration: none;
 }
 
 .btn-red::before{
