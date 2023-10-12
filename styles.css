@@ -62,6 +62,7 @@
 
 a{
     text-decoration: none;
+    color: white;
 }
 
 .nav-items div:hover{
@@ -123,7 +124,7 @@ a{
 }
 
 
-.btn-red{
+.btn-red {
     background-color: var(--bgOrange);
     width: fit-content;
     color: white;
@@ -157,10 +158,15 @@ a{
     transform: scaleX(1);
 }
 
-.btn-red:hover{
-    border: solid 3px var(--bgOrange);
+.btn-red :hover{
     color: black;
 }
+
+.btn-red a :hover{
+    border: none;
+    color: black;
+}
+
 
 .hero-section-right{
     position: relative;
@@ -415,7 +421,7 @@ text-align: center;
 }
 
 .project-subHeading{
-    width: 70%;
+    width: 60%;
     font-size: 16px;
     font-style: italic;
 }
